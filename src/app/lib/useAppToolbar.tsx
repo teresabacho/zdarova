@@ -10,6 +10,5 @@ export function useAppToolbar() {
         [AppRoutes.ARTICLES]: <ScrollToolbar />,
         [AppRoutes.ARTICLE_DETAILS]: <ScrollToolbar />,
     };
-
     return toolbarByAppRoute[appRoute];
 }

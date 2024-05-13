@@ -10,6 +10,9 @@ export function useAppToolbar() {
         [AppRoutes.ARTICLES]: <ScrollToolbar />,
         [AppRoutes.ARTICLE_DETAILS]: <ScrollToolbar />,
     };
-fdwed
+<<<<<<<<< Temporary merge branch 1
+=========
+f
+>>>>>>>>> Temporary merge branch 2
     return toolbarByAppRoute[appRoute];
 }
